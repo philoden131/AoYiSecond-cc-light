@@ -1,0 +1,37 @@
+{
+  "last_run": "2026-02-15T17:25:00+08:00",
+  "modules": {
+    "tags": {
+      "last_run": "2026-02-15T17:15:00+08:00",
+      "actions": [
+        "desc:11filled",
+        "type:12migrated",
+        "cold_merged:18tags_in_10files",
+        "new_struct_tag:系统文档"
+      ]
+    },
+    "structure": {
+      "last_run": "2026-02-15T17:25:00+08:00",
+      "actions": [
+        "l2_created:2",
+        "l2_updated:9",
+        "l3_fixed:3",
+        "l2_stale_fixed:6"
+      ]
+    },
+    "smells": {
+      "last_run": "2026-02-15T16:54:00+08:00",
+      "actions": [
+        "stale:1marked"
+      ]
+    },
+    "indexes": {
+      "last_run": "2026-02-15T17:25:00+08:00",
+      "actions": [
+        "pointers:209",
+        "overview:rebuilt",
+        "tags:114→98"
+      ]
+    }
+  }
+}

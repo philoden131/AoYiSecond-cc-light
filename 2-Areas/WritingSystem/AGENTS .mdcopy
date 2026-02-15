@@ -1,0 +1,39 @@
+﻿# Repository Guidelines
+
+## Project Structure & Module Organization
+- Root is a Markdown knowledge base for 奥一写作系统; keep new docs consistent with existing tone.
+- `WriteRule/`: stage-specific playbooks (开头、标题、事实核查等); cite files when updating guidance.
+- `other/`: overarching methodology like `0-1写作系统.md`; treat as canonical principles.
+- `分平台分发/`: platform tone and rewrite rules; mirror platform-specific additions here.
+- `创作原料/`: raw prompts, chat logs, research notes; keep organized, no private data.
+- `Output/`: generated drafts/versions; prefer dated subfolders when volume grows.
+- `.cursor/rules/`: agent/system prompts; update carefully and keep changes documented.
+
+## Build, Test, and Development Commands
+- No build pipeline; edit Markdown directly.
+- `rg "<keyword>"` searches guidance quickly across folders.
+- `rg --files -g "*.md" Output` lists produced drafts.
+- `Get-ChildItem -Recurse -Filter *.md` previews structure in PowerShell.
+- Use a Markdown preview locally to spot formatting issues.
+
+## Coding Style & Naming Conventions
+- Use Markdown headings in order; prefer short paragraphs and actionable bullets.
+- Maintain voice and structure from `other/0-1写作系统.md`; keep language concrete and platform-specific.
+- Files are UTF-8; keep existing Chinese filenames, use concise kebab-case English for new ones when clearer.
+- Include inline references to related guides (e.g., 链接到对应规则文件) when adding new advice.
+- For Output drafts, optionally prefix filenames with date and topic (`20251208-productivity.md`).
+
+## Testing Guidelines
+- No automated tests; perform self-review: check headings render, lists align, and links resolve.
+- Validate facts per `WriteRule/事实核查与信息增强指南.md`; note sources or cross-links in context.
+- Before publishing, re-read against platform tone in `分平台分发/平台调性.md`.
+
+## Commit & Pull Request Guidelines
+- Commit messages: imperative, ≤72 chars, focused scope (`Add fact-check checklist`, `Update platform tone note`).
+- PRs should summarize intent, list touched files, include before/after snippet if wording changes, and link related guides or issues.
+- Ask for review when altering canonical rules or `.cursor/rules/` prompts; highlight risks or open questions.
+
+## Security & Configuration Tips
+- Strip personal data from `创作原料/` and `Output/` before sharing.
+- Avoid committing API keys or session data; this repo should contain text only.
+- Keep agent instructions in `.cursor/rules/` synchronized with corresponding public guidelines to prevent drift.

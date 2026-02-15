@@ -1,0 +1,515 @@
+{
+  "generated_at": "2026-02-15T09:21:50Z",
+  "tags": {
+    "total": 98,
+    "cold_tags": [
+      {
+        "tag": "AI",
+        "count": 1,
+        "files": [
+          "3-Resources/创作/观点打磨/AI角色互换技巧.md"
+        ]
+      },
+      {
+        "tag": "AI穿搭",
+        "count": 1,
+        "files": [
+          "3-Resources/AI/Prompt/AI时尚造型-情境解码器.md"
+        ]
+      },
+      {
+        "tag": "ForReel",
+        "count": 1,
+        "files": [
+          "1-Projects/短剧APP/【251201】 第二次会议.md"
+        ]
+      },
+      {
+        "tag": "Google Play",
+        "count": 1,
+        "files": [
+          "1-Projects/短剧APP/251127 会前调研内容.md"
+        ]
+      },
+      {
+        "tag": "HEIP",
+        "count": 1,
+        "files": [
+          "2-Areas/WritingSystem/WriteRule/高互动写作.md"
+        ]
+      },
+      {
+        "tag": "IP内核",
+        "count": 1,
+        "files": [
+          "2-Areas/WritingSystem/other/人物核心.md"
+        ]
+      },
+      {
+        "tag": "OpenBuild",
+        "count": 1,
+        "files": [
+          "1-Projects/MyWear/对外/两年前的我做梦都想不到自己能在黑客松上夺双冠【open build】.md"
+        ]
+      },
+      {
+        "tag": "PR",
+        "count": 1,
+        "files": [
+          "1-Projects/MyWear/对外/湖南电视台 前采视频.md"
+        ]
+      },
+      {
+        "tag": "SCQA",
+        "count": 1,
+        "files": [
+          "2-Areas/WritingSystem/WriteRule/文章结构.md"
+        ]
+      },
+      {
+        "tag": "SOP",
+        "count": 1,
+        "files": [
+          "2-Areas/WritingSystem/1 - 配图师.md"
+        ]
+      },
+      {
+        "tag": "Takeaway",
+        "count": 1,
+        "files": [
+          "2-Areas/WritingSystem/WriteRule/takeaways写作指南.md"
+        ]
+      },
+      {
+        "tag": "上架",
+        "count": 1,
+        "files": [
+          "1-Projects/短剧APP/251127 会前调研内容.md"
+        ]
+      },
+      {
+        "tag": "个人成长",
+        "count": 1,
+        "files": [
+          "1-Projects/MyWear/对外/两年前的我做梦都想不到自己能在黑客松上夺双冠【open build】.md"
+        ]
+      },
+      {
+        "tag": "事实核查",
+        "count": 1,
+        "files": [
+          "2-Areas/WritingSystem/WriteRule/事实核查与信息增强指南.md"
+        ]
+      },
+      {
+        "tag": "互动",
+        "count": 1,
+        "files": [
+          "2-Areas/WritingSystem/WriteRule/高互动写作.md"
+        ]
+      },
+      {
+        "tag": "产品设计",
+        "count": 1,
+        "files": [
+          "1-Projects/MyWear/产品标签系统设计.md"
+        ]
+      },
+      {
+        "tag": "传播学",
+        "count": 1,
+        "files": [
+          "2-Areas/WritingSystem/other/STEEPS.md"
+        ]
+      },
+      {
+        "tag": "内部产品会",
+        "count": 1,
+        "files": [
+          "1-Projects/短剧APP/内部产品会 1129.md"
+        ]
+      },
+      {
+        "tag": "前端开发",
+        "count": 1,
+        "files": [
+          "3-Resources/AI/AI coding 前端提示词.md"
+        ]
+      },
+      {
+        "tag": "合同",
+        "count": 1,
+        "files": [
+          "1-Projects/MyWear/合同调整.md"
+        ]
+      },
+      {
+        "tag": "启动会",
+        "count": 1,
+        "files": [
+          "1-Projects/短剧APP/【251127】第一次会议纪要.md"
+        ]
+      },
+      {
+        "tag": "战略",
+        "count": 1,
+        "files": [
+          "3-Resources/商业/君智战略课 - 25.10.31 AI结构化版本.md"
+        ]
+      },
+      {
+        "tag": "抖音",
+        "count": 1,
+        "files": [
+          "2-Areas/WritingSystem/分平台分发/平台调性.md"
+        ]
+      },
+      {
+        "tag": "搜索技巧",
+        "count": 1,
+        "files": [
+          "2-Areas/WritingSystem/WriteRule/事实核查与信息增强指南.md"
+        ]
+      },
+      {
+        "tag": "支付",
+        "count": 1,
+        "files": [
+          "1-Projects/短剧APP/251127 会前调研内容.md"
+        ]
+      },
+      {
+        "tag": "时间审计",
+        "count": 1,
+        "files": [
+          "3-Resources/理财/现金流梳理/P3 时薪计算.md"
+        ]
+      },
+      {
+        "tag": "易拉宝",
+        "count": 1,
+        "files": [
+          "1-Projects/MyWear/EPIC 251217 - 易拉宝.md"
+        ]
+      },
+      {
+        "tag": "盈利模型",
+        "count": 1,
+        "files": [
+          "1-Projects/MyWear/商业模式.md"
+        ]
+      },
+      {
+        "tag": "自我觉察",
+        "count": 1,
+        "files": [
+          "3-Resources/认知/Mindecodi培训/Mindcode - 第一期（Wake Up） - 第一节【镜子.md"
+        ]
+      },
+      {
+        "tag": "被动收入",
+        "count": 1,
+        "files": [
+          "3-Resources/理财/现金流梳理/P4 方向确认.md"
+        ]
+      },
+      {
+        "tag": "订阅模型",
+        "count": 1,
+        "files": [
+          "1-Projects/MyWear/商业模式.md"
+        ]
+      },
+      {
+        "tag": "语言偏好",
+        "count": 1,
+        "files": [
+          "2-Areas/WritingSystem/TempRule/251209.md"
+        ]
+      },
+      {
+        "tag": "资产负债",
+        "count": 1,
+        "files": [
+          "3-Resources/理财/现金流梳理/P2 资产债务梳理.md"
+        ]
+      },
+      {
+        "tag": "路演",
+        "count": 1,
+        "files": [
+          "3-Resources/商业/Demo day 3分钟讲项目内容.md"
+        ]
+      },
+      {
+        "tag": "限制性信念",
+        "count": 1,
+        "files": [
+          "3-Resources/认知/Mindecodi培训/Mindcode - 第一期（Wake Up） - 第三节【规训.md"
+        ]
+      },
+      {
+        "tag": "项目分工",
+        "count": 1,
+        "files": [
+          "1-Projects/短剧APP/【251127】第一次会议纪要.md"
+        ]
+      }
+    ],
+    "cold_tag_count": 36,
+    "empty_desc": [],
+    "empty_desc_count": 0,
+    "template_desc": [],
+    "template_desc_count": 0,
+    "invalid_types": [],
+    "invalid_type_count": 0,
+    "similar_pairs": [
+      [
+        "AI",
+        "AI穿搭"
+      ],
+      [
+        "写作",
+        "写作严谨性"
+      ],
+      [
+        "写作",
+        "写作系统"
+      ],
+      [
+        "奥一",
+        "奥一风格"
+      ],
+      [
+        "流量",
+        "流量机制"
+      ],
+      [
+        "项目",
+        "项目分工"
+      ],
+      [
+        "项目",
+        "项目申请"
+      ]
+    ],
+    "similar_pair_count": 7
+  },
+  "structure": {
+    "l2_missing": [],
+    "l2_missing_count": 0,
+    "l2_stale": [],
+    "l2_stale_count": 0,
+    "l3_issues": [],
+    "l3_issue_count": 0
+  },
+  "smells": {
+    "stale_active": [],
+    "stale_active_count": 0,
+    "orphan_candidates": [],
+    "orphan_candidate_count": 0,
+    "broken_links": [
+      {
+        "file": "1-Projects/MyWear/EPIC 251217 - 易拉宝.md",
+        "target": "Gemini_Generated_Image_rc0cfhrc0cfhrc0c.png"
+      },
+      {
+        "file": "1-Projects/短剧APP/251127 会前调研内容.md",
+        "target": "Pasted image 20251126121506.png"
+      },
+      {
+        "file": "1-Projects/短剧APP/251127 会前调研内容.md",
+        "target": "Pasted image 20251126123448.png"
+      },
+      {
+        "file": "1-Projects/短剧APP/【251201】 第二次会议.md",
+        "target": "b14bdff8efa1c04ef8d221570b020e87.png"
+      },
+      {
+        "file": "1-Projects/短剧APP/【251201】 第二次会议.md",
+        "target": "49c3e35b555ab96d7ce1eedb140597fa.png"
+      },
+      {
+        "file": "1-Projects/短剧APP/【251201】 第二次会议.md",
+        "target": "1f56fd4c9f26bc7a666788788795babe 1.jpg"
+      },
+      {
+        "file": "1-Projects/MyWear/海外营销增长笔记/Product Hunt 打榜技巧 -- 百顺博客笔记.md",
+        "target": "Pasted image 20251218165939.png"
+      },
+      {
+        "file": "1-Projects/MyWear/海外营销增长笔记/Product Hunt 打榜技巧 -- 百顺博客笔记.md",
+        "target": "Pasted image 20251218165959.png"
+      },
+      {
+        "file": "1-Projects/MyWear/海外营销增长笔记/Product Hunt 打榜技巧 -- 百顺博客笔记.md",
+        "target": "Pasted image 20251218170046.png"
+      },
+      {
+        "file": "1-Projects/MyWear/海外营销增长笔记/Product Hunt 打榜技巧 -- 百顺博客笔记.md",
+        "target": "Pasted image 20251218171138.png"
+      },
+      {
+        "file": "3-Resources/创作/知识付费通用逻辑.md",
+        "target": "Pasted image 20251127173610.png"
+      },
+      {
+        "file": "3-Resources/AI/YYFunctionDesign.md",
+        "target": "Pasted image 20251108135058.png"
+      },
+      {
+        "file": "3-Resources/商业/张和 AI 产品经理课.md",
+        "target": "Pasted image 20251128202045.png"
+      },
+      {
+        "file": "3-Resources/商业/张和 AI 产品经理课.md",
+        "target": "Pasted image 20251128202316.png"
+      },
+      {
+        "file": "3-Resources/商业/张和 AI 产品经理课.md",
+        "target": "Pasted image 20251128202339.png"
+      },
+      {
+        "file": "3-Resources/商业/张和 AI 产品经理课.md",
+        "target": "Pasted image 20251128202715.png"
+      },
+      {
+        "file": "3-Resources/商业/张和 AI 产品经理课.md",
+        "target": "Pasted image 20251128202917.png"
+      },
+      {
+        "file": "3-Resources/商业/张和 AI 产品经理课.md",
+        "target": "Pasted image 20251128203529.png"
+      },
+      {
+        "file": "3-Resources/商业/张和 AI 产品经理课.md",
+        "target": "Pasted image 20251128203730.png"
+      },
+      {
+        "file": "3-Resources/商业/张和 AI 产品经理课.md",
+        "target": "Pasted image 20251128203946.png"
+      },
+      {
+        "file": "3-Resources/商业/张和 AI 产品经理课.md",
+        "target": "Pasted image 20251128212341.png"
+      },
+      {
+        "file": "3-Resources/创作/NLP-STEEPS/NLP 上课笔记.md",
+        "target": "Pasted image 20251130212540.png"
+      },
+      {
+        "file": "3-Resources/创作/NLP-STEEPS/NLP 上课笔记.md",
+        "target": "Pasted image 20251130214330.png"
+      },
+      {
+        "file": "3-Resources/理财/现金流梳理/P2 资产债务梳理.md",
+        "target": "26de389b7ed74811fa617b0d4d15cb88.png"
+      },
+      {
+        "file": "4-Archives/内容创作归档/第一讲 - 视频脚本.md",
+        "target": "Pasted image 20260129102357.png"
+      },
+      {
+        "file": "4-Archives/内容创作归档/Nanobanana爆火背后，主创团队的洞察.md",
+        "target": "Pasted image 20250902123248.png"
+      },
+      {
+        "file": "4-Archives/内容创作归档/Nanobanana爆火背后，主创团队的洞察.md",
+        "target": "Pasted image 20250902123313.png"
+      },
+      {
+        "file": "4-Archives/内容创作归档/Nanobanana爆火背后，主创团队的洞察.md",
+        "target": "Pasted image 20250902123941.png"
+      },
+      {
+        "file": "4-Archives/内容创作归档/Nanobanana爆火背后，主创团队的洞察.md",
+        "target": "Pasted image 20250902123726.png"
+      },
+      {
+        "file": "4-Archives/内容创作归档/Nanobanana爆火背后，主创团队的洞察.md",
+        "target": "Pasted image 20250902134841.png"
+      },
+      {
+        "file": "4-Archives/内容创作归档/Nanobanana爆火背后，主创团队的洞察.md",
+        "target": "Pasted image 20250902134853.png"
+      },
+      {
+        "file": "4-Archives/内容创作归档/Nanobanana爆火背后，主创团队的洞察.md",
+        "target": "Pasted image 20250902135351.png"
+      },
+      {
+        "file": "4-Archives/内容创作归档/Nanobanana爆火背后，主创团队的洞察.md",
+        "target": "Pasted image 20250902135623.png"
+      },
+      {
+        "file": "4-Archives/内容创作归档/Nanobanana爆火背后，主创团队的洞察.md",
+        "target": "Pasted image 20250902140101.png"
+      },
+      {
+        "file": "4-Archives/内容创作归档/Nanobanana爆火背后，主创团队的洞察.md",
+        "target": "Pasted image 20250902140134.png"
+      },
+      {
+        "file": "4-Archives/内容创作归档/Nanobanana爆火背后，主创团队的洞察.md",
+        "target": "Pasted image 20250902140511.png"
+      },
+      {
+        "file": "4-Archives/内容创作归档/Nanobanana爆火背后，主创团队的洞察.md",
+        "target": "Pasted image 20250902140528.png"
+      },
+      {
+        "file": "4-Archives/内容创作归档/Nanobanana爆火背后，主创团队的洞察.md",
+        "target": "Pasted image 20250902140543.png"
+      },
+      {
+        "file": "4-Archives/内容创作归档/Nanobanana爆火背后，主创团队的洞察.md",
+        "target": "Pasted image 20250902141023.png"
+      },
+      {
+        "file": "4-Archives/内容创作归档/Nanobanana爆火背后，主创团队的洞察.md",
+        "target": "Pasted image 20250902141551.png"
+      },
+      {
+        "file": "4-Archives/内容创作归档/Nanobanana爆火背后，主创团队的洞察.md",
+        "target": "Pasted image 20250902141605.png"
+      },
+      {
+        "file": "4-Archives/内容创作归档/Nanobanana爆火背后，主创团队的洞察.md",
+        "target": "Pasted image 20250902141629.png"
+      },
+      {
+        "file": "4-Archives/内容创作归档/Nanobanana爆火背后，主创团队的洞察.md",
+        "target": "Pasted image 20250902141639.png"
+      },
+      {
+        "file": "4-Archives/内容创作归档/Nanobanana爆火背后，主创团队的洞察.md",
+        "target": "Pasted image 20250902142145.png"
+      },
+      {
+        "file": "4-Archives/内容创作归档/Nanobanana爆火背后，主创团队的洞察.md",
+        "target": "Pasted image 20250902142219.png"
+      },
+      {
+        "file": "4-Archives/内容创作归档/Nanobanana爆火背后，主创团队的洞察.md",
+        "target": "Pasted image 20250902142231.png"
+      }
+    ],
+    "broken_link_count": 46,
+    "inbox_count": 0,
+    "hollow_dirs": [
+      "2-Areas/复盘"
+    ],
+    "hollow_dir_count": 1
+  },
+  "indexes": {
+    "pointers_age_days": 0,
+    "overview_age_days": 0,
+    "any_stale": false
+  },
+  "summary": {
+    "total_issues": 89,
+    "critical": 46,
+    "warning": 0,
+    "info": 43
+  }
+}
