@@ -9,7 +9,6 @@ Desktop.ini
 
 # Claude + Agent
 .agent/
-.claude/
 *.log
 
 # Obsidian
