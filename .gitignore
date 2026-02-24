@@ -18,3 +18,10 @@ Desktop.ini
 # Temp
 00-Temp/
 *.tmp
+
+# IDE
+.vscode/
+
+# Auto-generated
+install.sh
+logs/

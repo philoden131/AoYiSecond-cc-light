@@ -9,6 +9,8 @@
 - 产品定位与股权设计.md: 产品定位和股权架构
 - 产品标签系统设计.md: 产品标签系统设计方案
 - 合同调整.md: 合同条款调整记录
+- Antler-Accelerator-Application.md: Antler加速器申请表（英文版）
+- Alta竞品调研报告.md: 竞品Alta深度调研分析
 - 对外/: 对外宣传文档（黑客松、电视台等）
 - 海外营销增长笔记/: Product Hunt打榜等海外营销笔记
 

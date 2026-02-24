@@ -12,7 +12,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "python3 ./6-System/hooks/startup.py"
+            "command": "bash -c 'cd \"$(git rev-parse --show-toplevel)\" && python3 ./6-System/hooks/startup.py'"
           }
         ]
       }
@@ -22,7 +22,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "python3 ./6-System/hooks/stop_audit.py"
+            "command": "bash -c 'cd \"$(git rev-parse --show-toplevel)\" && python3 ./6-System/hooks/stop_audit.py'"
           }
         ]
       }
