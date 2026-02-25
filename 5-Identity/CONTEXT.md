@@ -28,7 +28,7 @@ reviewed_at: 2026-02-14
 - 选择 PARA 而非 Zettelkasten 作为知识框架
 - 标签是检索入口，不是分类体系
 - 系统以 Claude Code 为驱动器，Obsidian 为存储层
-- 记忆系统用 CC 原生 MEMORY.md + CONTEXT.md + session_logs 三层
+- 记忆系统用 OPERATING_RULES.md + 5-Identity/* + session_logs 三层
 - PROFILE.md 场景化偏好：新偏好先存 candidates.md，/digest 确认后晋升（A类）
 - 全量对话记录用 session_export.py hook 自动保存为 MD（含 AI 回复+时间戳）
 - 指针注入方案明确放弃，不实施（复杂度收益不足）

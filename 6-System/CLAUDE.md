@@ -20,8 +20,8 @@
 6-System/
 ├── pending_approvals.md      # 审批队列
 ├── change_log.md             # 变更日志
-├── memory/                   # 跨会话记忆
-│   ├── MEMORY.md             # 已确认的操作性规则和稳定偏好（contextFiles 自动注入）
+├── working-memory/           # 系统工作记忆（执行约定/流程规范）
+│   ├── OPERATING_RULES.md    # 已确认的操作性规则（contextFiles 自动注入）
 │   ├── candidates.md         # 新偏好暂存池（不注入，/digest 时晋升到 PROFILE.md）
 │   └── daily/                # 日常碎片（Stop hook 自动写入）
 ├── patterns/                 # 任务智能：成功的执行模式，可复用交互策略（好用轨道）
@@ -54,7 +54,7 @@
 
 - 提案未出现 → 检查 `candidates/` → `pending_approvals.md`
 - 变更未执行 → 检查 `pending_approvals.md` → `change_log.md`
-- 记忆未写入 → 检查 `logs/stop_pipeline.jsonl` 和 `memory/daily/` 目录
+- 记忆未写入 → 检查 `logs/stop_pipeline.jsonl` 和 `working-memory/daily/` 目录
 
 ---
 

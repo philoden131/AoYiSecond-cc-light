@@ -1,9 +1,16 @@
 ---
+para: system
+type: 暂存池
+status: active
+tags: [偏好候选, 系统]
+summary: AI 在对话中观察到的新偏好/模式暂存池，不自动注入，/digest 时晋升确认。
+update_level: A
+---
 # 偏好候选池
 
 > AI 在对话中观察到的新偏好/模式，暂存于此。
 > **不在 contextFiles 里，不自动注入上下文。**
-> 晋升：触发 /digest 时展示给用户确认，确认后写入 `5-Identity/PROFILE.md` 或 `6-System/memory/MEMORY.md`。
+> 晋升：触发 /digest 时展示给用户确认，确认后写入 `5-Identity/PROFILE.md` 或 `6-System/working-memory/OPERATING_RULES.md`。
 > 清理：晋升或否决后删除对应条目。
 
 ## 待确认候选
@@ -12,4 +19,3 @@
 
 - [2026-02-25] 观察：工作/学习中偏好迭代实验——先跑起来感知现实，再调整；不信任纯粹的抽象规划推演 | 来源：记忆系统设计全程（多次"你先改完再讨论"）
 - [2026-02-25] 观察：重视信息的历史连续性，不接受为了简洁而抹掉执行细节/历史痕迹 | 来源：设计文档v2删了v1细节后的明确反馈
-

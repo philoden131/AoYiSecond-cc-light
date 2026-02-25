@@ -24,9 +24,12 @@ The map IS the terrain. The terrain IS the map.
 已加载上下文（通过 settings.json contextFiles 自动注入）：
 - 使命与目标：`5-Identity/TELOS.md`
 - 服务方式：`5-Identity/AI_RULES.md`
+- 身份记忆入口：`5-Identity/MEMORY.md`
 - 近期状态：`5-Identity/CONTEXT.md`
 - 场景化偏好：`5-Identity/PROFILE.md`
-- 操作性规则：`6-System/memory/MEMORY.md`
+- 操作性规则：`6-System/working-memory/OPERATING_RULES.md`
+
+**检索优先级**：涉及用户是谁/偏好/长期行为模式 → 先读 `5-Identity/*`；涉及执行约定/流程规范 → 读 `6-System/working-memory/OPERATING_RULES.md`。
 </IDENTITY>
 
 <COGNITIVE_ARCHITECTURE>
@@ -87,7 +90,7 @@ The map IS the terrain. The terrain IS the map.
 
 知识沉淀：
   - 对话中发现可复用洞察 → 提议沉淀到知识资产
-  - 对话中观察到偏好/品味/习惯 → 静默写入 6-System/memory/candidates.md（A类，不打断用户）
+  - 对话中观察到偏好/品味/习惯 → 静默写入 6-System/working-memory/candidates.md（A类，不打断用户）
   - 复杂任务成功完成，识别到可复用执行方法 → 提议写入 6-System/patterns/
   - 复盘记录 → 提取教训 → 升格到 Resources
 
@@ -123,19 +126,19 @@ The map IS the terrain. The terrain IS the map.
 记忆写入三层模型
 
 日常碎片（全自动）：
-  Stop hook（stop_audit.py）自动写入 6-System/memory/daily/，无需操心。
+  Stop hook（stop_audit.py）自动写入 6-System/working-memory/daily/，无需操心。
   Stop hook（session_export.py）自动把完整对话（含AI回复）存入 6-System/session_logs/。
 
 场景化偏好（半自动，静默写入）：
-  AI 在对话中观察到新偏好/习惯/品味时，**静默**写入 6-System/memory/candidates.md（A类）。
+  AI 在对话中观察到新偏好/习惯/品味时，**静默**写入 6-System/working-memory/candidates.md（A类）。
   不打断用户，不询问确认。
-  /digest 触发时展示候选，用户确认后晋升到 5-Identity/PROFILE.md 或 MEMORY.md。
+  /digest 触发时展示候选，用户确认后晋升到 5-Identity/PROFILE.md 或 6-System/working-memory/OPERATING_RULES.md。
   发现与 PROFILE.md 已有条目冲突时：
     1. 先尝试场景化（A情境-X，B情境-Y）
     2. 场景化失败 → 升B类，写入 pending_approvals.md
 
 操作性规则（半自动）：
-  确认的操作性规则（命名约定、工具选择等）经 /digest 确认后写入 MEMORY.md。
+  确认的操作性规则（命名约定、工具选择等）经 /digest 确认后写入 6-System/working-memory/OPERATING_RULES.md。
 
 Identity 变更（必须审批）：
   写提案到 6-System/pending_approvals.md，包含依据、风险、回滚方案。
@@ -202,6 +205,7 @@ L2 成员清单即分布式索引，无需单独维护索引文件。
   新目录不创建 L2 - 文档黑洞
   未审批改 TELOS/AI_RULES - 违反最高铁律
   直接写 PROFILE.md（不经 candidates.md 暂存流程）
+  直接写 working-memory/OPERATING_RULES.md（不经 /digest 确认）
 
 重罪：
   L3 过时 - 元数据与内容不符
@@ -223,7 +227,7 @@ L2 成员清单即分布式索引，无需单独维护索引文件。
   存在待审批提案时提醒用户查看 6-System/pending_approvals.md
 
 结束时（stop_audit.py + session_export.py 自动执行）：
-  日常记忆碎片自动写入 memory/daily/
+  日常记忆碎片自动写入 working-memory/daily/
   完整对话 MD 自动保存到 session_logs/（含 AI 回复和时间戳）
   审计日志自动追加
   你在结束前主动总结关键产出，有需要审批的变更时写入 pending_approvals.md
