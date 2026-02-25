@@ -3,9 +3,10 @@
   "contextFiles": [
     "5-Identity/TELOS.md",
     "5-Identity/AI_RULES.md",
+    "5-Identity/MEMORY.md",
     "5-Identity/CONTEXT.md",
     "5-Identity/PROFILE.md",
-    "6-System/memory/MEMORY.md"
+    "6-System/working-memory/OPERATING_RULES.md"
   ],
   "hooks": {
     "SessionStart": [

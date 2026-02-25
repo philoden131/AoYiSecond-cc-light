@@ -18,6 +18,23 @@
 
 ## 待审批提案
 
+### 提案 #013
+- 状态：approved ✅ (2026-02-25，用户明确指令执行整体方案)
+- 类型：C
+- 目标：更新 /.claude/CLAUDE.md（L1 系统宪法）
+- 变更：MEMORY_PROTOCOL 路径全更新为新命名；SESSION_PROTOCOL 更新；新增「Identity优先读取」规则；CAPABILITIES 中 candidates.md 路径更新
+- 影响：`/.claude/CLAUDE.md`
+- 回滚：git revert 对应 commit
+
+### 提案 #012
+- 状态：approved ✅ (2026-02-25，用户明确指令执行整体方案)
+- 类型：B
+- 目标：5-Identity 结构变更（新增 MEMORY.md；更新 L2 成员清单）
+- 变更一：新建 `5-Identity/MEMORY.md`，作为身份记忆主入口（汇总指针 + 检索优先级声明）
+- 变更二：更新 `5-Identity/CLAUDE.md` 成员清单，加入 MEMORY.md 条目
+- 影响：`5-Identity/MEMORY.md`（新建），`5-Identity/CLAUDE.md`（成员清单）
+- 回滚：删除 MEMORY.md，还原 5-Identity/CLAUDE.md
+
 ### 提案 #011
 - 状态：approved ✅ (2026-02-25)
 - 类型：B
