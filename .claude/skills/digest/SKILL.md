@@ -21,14 +21,14 @@ argument-hint: "[留空则全量总结，或指定关注点如'只记项目信�
 | 类型 | 识别信号 | 目标位置 |
 |------|----------|----------|
 | 项目上下文 | 新项目、阶段变化、产品定义、目标人群、关键决策 | `5-Identity/CONTEXT.md` |
-| 新观察到的偏好（未确认） | 本次对话首次出现的工作习惯、交互偏好、品味倾向 | `6-System/memory/candidates.md`（暂存） |
-| 已确认的稳定偏好 | 通过本次 /digest 用户明确确认的候选条目 | `5-Identity/PROFILE.md` 或 `6-System/memory/MEMORY.md` |
+| 新观察到的偏好（未确认） | 本次对话首次出现的工作习惯、交互偏好、品味倾向 | `6-System/working-memory/candidates.md`（暂存） |
+| 已确认的稳定偏好 | 通过本次 /digest 用户明确确认的候选条目 | `5-Identity/PROFILE.md` 或 `6-System/working-memory/OPERATING_RULES.md` |
 | 可复用知识/模式 | 方法论、框架、模板、成功的任务执行模式 | PARA 对应位置 或 `6-System/patterns/` |
 | Identity 相关 | 使命/目标/信念/策略变化 | `6-System/pending_approvals.md`（B类审批） |
 
 ### Step 2：读取 candidates.md，处理待确认候选
 
-读取 `6-System/memory/candidates.md`，展示所有待确认候选条目：
+读取 `6-System/working-memory/candidates.md`，展示所有待确认候选条目：
 
 ```
 发现 candidates.md 中有 N 条待确认偏好：
@@ -37,7 +37,7 @@ argument-hint: "[留空则全量总结，或指定关注点如'只记项目信�
 ```
 
 用户确认后：
-- 确认 → 写入 `5-Identity/PROFILE.md`（或 `MEMORY.md` 如果是操作性规则），从 candidates.md 删除
+- 确认 → 写入 `5-Identity/PROFILE.md`（或 `OPERATING_RULES.md` 如果是操作性规则），从 candidates.md 删除
 - 否决 → 从 candidates.md 删除
 - 发现冲突 → 尝试场景化合并；场景化失败 → 升 B 类写入 `pending_approvals.md`
 

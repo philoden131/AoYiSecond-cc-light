@@ -11,7 +11,7 @@ from datetime import datetime
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
-MEMORY_FILE = ROOT / "6-System" / "memory" / "MEMORY.md"
+MEMORY_FILE = ROOT / "6-System" / "working-memory" / "OPERATING_RULES.md"
 PENDING_FILE = ROOT / "6-System" / "pending_approvals.md"
 
 RECENT_HEADER = "## 近期会话索引"
@@ -125,7 +125,7 @@ def _append_telos_proposal(candidates: list[str]) -> bool:
             "- 目标：将稳定模式候选提升到 TELOS（需人工确认）",
             f"- 日期：{today}",
             f"- 内容：根据近期会话重复模式，提炼出稳定候选：{candidate_lines}",
-            f"- 依据：来源 6-System/memory/MEMORY.md 的「近期会话索引」重复项",
+            f"- 依据：来源 6-System/working-memory/OPERATING_RULES.md 的「近期会话索引」重复项",
             "- 影响：5-Identity/TELOS.md（仅在审批通过后写入）",
             "- 风险：medium",
             "- 回滚：拒绝该提案，或审批后 revert 对应变更",

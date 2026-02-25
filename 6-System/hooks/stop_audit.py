@@ -7,7 +7,7 @@ from datetime import datetime
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
-DAILY_DIR = ROOT / "6-System" / "memory" / "daily"
+DAILY_DIR = ROOT / "6-System" / "working-memory" / "daily"
 
 
 def _extract_user_messages(transcript_path: str) -> list[str]:
