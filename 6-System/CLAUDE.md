@@ -21,8 +21,10 @@
 ├── pending_approvals.md      # 审批队列
 ├── change_log.md             # 变更日志
 ├── memory/                   # 跨会话记忆
-│   ├── MEMORY.md             # 长期记忆（Claude 建议 → 用户审批）
+│   ├── MEMORY.md             # 已确认的操作性规则和稳定偏好（contextFiles 自动注入）
+│   ├── candidates.md         # 新偏好暂存池（不注入，/digest 时晋升到 PROFILE.md）
 │   └── daily/                # 日常碎片（Stop hook 自动写入）
+├── patterns/                 # 任务智能：成功的执行模式，可复用交互策略（好用轨道）
 ├── indexes/                  # 检索索引
 │   ├── knowledge_pointers.jsonl  # 知识指针（/maintain indexes 重建）
 │   └── para_overview.json        # PARA 全局概览（/maintain indexes 重建）
@@ -33,13 +35,14 @@
 │   └── approve_change.sh     # 提案状态机
 ├── hooks/                    # Hook 脚本（settings.json 注册）
 │   ├── startup.py            # SessionStart: 状态初始化 + 启动摘要
-│   └── stop_audit.py         # Stop: 日常记忆 + 审计日志
+│   ├── stop_audit.py         # Stop: 日常记忆碎片 + 审计日志
+│   └── session_export.py     # Stop: 完整对话 MD 导出到 session_logs/
 ├── state/                    # 运行状态
 │   ├── runtime_state.json
 │   └── maintenance.json         # 维护状态（/maintain skill 更新）
 ├── logs/                     # 审计日志
 │   └── stop_pipeline.jsonl
-├── session_logs/             # 会话详情日志（/extract 写入）
+├── session_logs/             # 完整对话 MD（session_export.py 自动写入）
 ├── candidates/               # 候选条目
 │   ├── identity/             # Identity 候选（必须审批）
 │   └── resources/            # Resources 候选

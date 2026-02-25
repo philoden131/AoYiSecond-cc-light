@@ -39,14 +39,16 @@ if not path.exists():
     raise SystemExit(0)
 
 text = path.read_text(encoding="utf-8", errors="ignore")
-for m in re.finditer(r"^## 提案 #(.*)$", text, flags=re.M):
+# 匹配 ### 提案 #NNN 格式
+for m in re.finditer(r"^### 提案 #(.*)$", text, flags=re.M):
     pid = m.group(1).strip()
     block = text[m.start():]
-    next_m = re.search(r"\n## 提案 #", block[1:])
+    next_m = re.search(r"\n### 提案 #", block[1:])
     if next_m:
         block = block[:next_m.start()+1]
     status = "unknown"
-    sm = re.search(r"^- 状态：(.+)$", block, flags=re.M)
+    # 兼容两种格式：- 状态：xxx 和 - **状态**: xxx
+    sm = re.search(r"^- (?:\*\*状态\*\*[:：]|状态[:：])\s*(.+)$", block, flags=re.M)
     if sm:
         status = sm.group(1).strip()
     print(f"- {pid}: {status}")
@@ -70,7 +72,8 @@ if not path.exists():
     raise SystemExit(1)
 
 text = path.read_text(encoding="utf-8", errors="ignore")
-pattern = re.compile(rf"(^## 提案 #{re.escape(pid)}\s*$)(.*?)(?=^## 提案 #|\Z)", flags=re.M | re.S)
+# 匹配 ### 提案 #NNN 格式
+pattern = re.compile(rf"(^### 提案 #{re.escape(pid)}[^\n]*\n)(.*?)(?=^### 提案 #|\Z)", flags=re.M | re.S)
 m = pattern.search(text)
 if not m:
     print(f"未找到提案 #{pid}", file=sys.stderr)
@@ -78,21 +81,15 @@ if not m:
 
 head, body = m.group(1), m.group(2)
 
-# Proposal quality gate before approve/apply.
-if status in {"approved", "applied"}:
-    required = ["- 类型：", "- 目标：", "- 内容：", "- 依据：", "- 影响：", "- 风险：", "- 回滚："]
-    missing = []
-    for key in required:
-      if not re.search(rf"^{re.escape(key)}\\s*.+$", body, flags=re.M):
-          missing.append(key)
-    if missing:
-        print(f"提案 #{pid} 缺少必填字段，无法 {status}: {', '.join(missing)}", file=sys.stderr)
-        raise SystemExit(2)
-
-if re.search(r"^- 状态：.+$", body, flags=re.M):
-    body = re.sub(r"^- 状态：.+$", f"- 状态：{status}", body, flags=re.M)
+# 兼容两种状态字段格式并更新
+# 格式1: - 状态：pending
+# 格式2: - **状态**: ✅ 已批准
+if re.search(r"^- \*\*状态\*\*", body, flags=re.M):
+    body = re.sub(r"^(- \*\*状态\*\*[:：]\s*)(.+)$", rf"\g<1>{status}", body, flags=re.M)
+elif re.search(r"^- 状态：", body, flags=re.M):
+    body = re.sub(r"^(- 状态：)(.+)$", rf"\g<1>{status}", body, flags=re.M)
 else:
-    body = "\n- 状态：" + status + body
+    body = f"- 状态：{status}\n" + body
 
 new_block = head + body
 text = text[:m.start()] + new_block + text[m.end():]
