@@ -1,7 +1,7 @@
 ---
 para: system
 type: 系统设计文档
-status: active
+status: superseded
 tags: [系统设计, 记忆系统, 决策文档]
 summary: 外挂大脑记忆系统改造的决策文档。范围：文件结构调整+CLAUDE.md更新+Skill调整+bug修复+自动注入优化分析。每个改动点含批判性分析。
 created: 2026-02-25
@@ -10,6 +10,10 @@ updated: 2026-02-25
 
 > 版本：v4 | 更新日期：2026-02-25
 > 变更：修正6处工程问题 + 新增自动注入优化视角
+>
+> ⚠️ **已被命名迁移方案 supersede（2026-02-25）**
+> 本文档描述阶段零～阶段四的改造决策，保留作历史记录。
+> 后续命名迁移（memory/→working-memory/，MEMORY.md→OPERATING_RULES.md，新增5-Identity/MEMORY.md）已在独立 commit 中完成，不在本文档范围内。
 
 # 记忆系统改造：决策文档
 
