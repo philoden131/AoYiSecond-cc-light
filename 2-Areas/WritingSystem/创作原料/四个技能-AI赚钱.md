@@ -1,3 +1,12 @@
+---
+title: 四个技能-AI赚钱
+type: 笔记
+status: active
+para: area
+parent: 2-Areas/WritingSystem/创作原料
+tags: [AI赚钱, 口播稿, 副业]
+summary: 靠AI赚钱的四项核心技能口播稿（AI能力/产品化/自媒体/私域）
+---
 
 2026年想靠AI来赚钱你就死磕这四个技能哪怕以后不上班你也能有收入我一个个跟你说顺便告诉你应该去哪里找学习资料不用花钱还能省时间。
 

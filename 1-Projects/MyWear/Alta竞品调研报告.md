@@ -1,3 +1,14 @@
+---
+title: Alta竞品调研报告
+type: 笔记
+status: active
+para: project
+parent: 1-Projects/MyWear
+tags: [MyWear, 竞品分析]
+created: 2025-02-23
+summary: AI穿搭竞品 Alta 的深度调研分析，为 MyWear 加速器申请提供竞品参考
+---
+
 # Alta 竞品调研报告
 
 > 调研时间：2025-02-23

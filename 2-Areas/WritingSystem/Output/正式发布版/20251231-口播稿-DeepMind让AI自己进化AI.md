@@ -2,7 +2,7 @@
 para: area
 domain: 领域
 type: 笔记
-tags: [写作系统, 观点打磨, 标题, 口播, 脚本改写]
+tags: [写作系统, 观点打磨, 标题, 口播稿, 脚本改写]
 status: active
 summary: 【画面：震撼标题 + 论文截图闪烁】
 created: 2026-02-13

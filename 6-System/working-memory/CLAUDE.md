@@ -11,6 +11,8 @@
 
 - `OPERATING_RULES.md`: **已确认的**操作性规则和流程约定（在 contextFiles 里，自动注入）
 - `candidates.md`: AI 观察到的新偏好暂存池（**不在 contextFiles**，不自动注入，/digest 时晋升）
+- `tasks.md`: 统一任务捕获池，唯一的 todo 入口（不在 contextFiles，按需读取）
+- `done/YYYY-MM.md`: 归档后的已完成记录，按月存储（startup.py 自动创建和写入）
 - `daily/YYYYMM/YYYYMMDD.md`: 近期会话轨迹（Stop hook 自动写入）
 
 ## 写入路径

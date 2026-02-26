@@ -1,9 +1,9 @@
 ---
 status: active
 domain: Projects
-para: projects
+para: project
 parent: 1-Projects
-type: 方案
+type: 笔记
 tags: [系统进化, AI, EvoMap, Claude-Code]
 summary: 将 EvoMap 的 AI Agent 自进化思想迁移到奥一的第二大脑系统中，复用现有 Claude Code 基础设施
 created: 2026-02-25

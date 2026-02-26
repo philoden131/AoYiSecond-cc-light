@@ -1,3 +1,14 @@
+---
+title: Antler加速器申请
+type: 作品
+status: active
+para: project
+parent: 1-Projects/MyWear
+tags: [MyWear, 项目申请]
+created: 2025-07
+summary: MyWear Antler加速器申请书（英文版），面向 Disrupt 项目
+---
+
 Subject: ABL: Xia Zhedan - MyWear - Disrupt
 
 MyWear — AI-powered wardrobe assistant that activates your existing closet data to deliver truly personalized daily outfit decisions.
