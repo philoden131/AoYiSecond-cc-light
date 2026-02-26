@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-02-15T09:13:44Z",
+  "generated_at": "2026-02-26T14:33:01Z",
   "counts": {
-    "inbox": 0,
-    "project": 15,
-    "area": 64,
+    "inbox": 1,
+    "project": 18,
+    "area": 70,
     "resource": 113,
     "archive": 14,
-    "identity": 3
+    "identity": 5
   },
-  "total_markdown": 209,
+  "total_markdown": 221,
   "top_domains": [
     {
       "domain": "创作",
@@ -16,11 +16,15 @@
     },
     {
       "domain": "领域",
-      "count": 48
+      "count": 47
     },
     {
       "domain": "AI",
       "count": 30
+    },
+    {
+      "domain": "写作",
+      "count": 18
     },
     {
       "domain": "项目",
@@ -29,10 +33,6 @@
     {
       "domain": "归档",
       "count": 14
-    },
-    {
-      "domain": "写作",
-      "count": 13
     }
   ],
   "hot_notes": [

@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-02-15T09:21:50Z",
+  "generated_at": "2026-02-26T14:54:49Z",
   "tags": {
-    "total": 98,
+    "total": 118,
     "cold_tags": [
       {
-        "tag": "AI",
+        "tag": "AI偏好",
         "count": 1,
         "files": [
-          "3-Resources/创作/观点打磨/AI角色互换技巧.md"
+          "5-Identity/PROFILE.md"
         ]
       },
       {
@@ -15,6 +15,20 @@
         "count": 1,
         "files": [
           "3-Resources/AI/Prompt/AI时尚造型-情境解码器.md"
+        ]
+      },
+      {
+        "tag": "Claude-Code",
+        "count": 1,
+        "files": [
+          "1-Projects/EvoMap迁移方案.md"
+        ]
+      },
+      {
+        "tag": "EvoMap",
+        "count": 1,
+        "files": [
+          "1-Projects/EvoMap迁移方案.md"
         ]
       },
       {
@@ -88,6 +102,13 @@
         ]
       },
       {
+        "tag": "个人品牌",
+        "count": 1,
+        "files": [
+          "2-Areas/WritingSystem/Output/正式发布版/20260226-AI擅长翻译.md"
+        ]
+      },
+      {
         "tag": "个人成长",
         "count": 1,
         "files": [
@@ -137,6 +158,13 @@
         ]
       },
       {
+        "tag": "口播",
+        "count": 1,
+        "files": [
+          "2-Areas/WritingSystem/0 - 口播改写.md"
+        ]
+      },
+      {
         "tag": "合同",
         "count": 1,
         "files": [
@@ -151,17 +179,31 @@
         ]
       },
       {
+        "tag": "品味",
+        "count": 1,
+        "files": [
+          "2-Areas/WritingSystem/Output/正式发布版/20260226-AI擅长翻译.md"
+        ]
+      },
+      {
+        "tag": "场景化偏好",
+        "count": 1,
+        "files": [
+          "5-Identity/PROFILE.md"
+        ]
+      },
+      {
+        "tag": "审稿",
+        "count": 1,
+        "files": [
+          "2-Areas/WritingSystem/WriteRule/稿件审查标准.md"
+        ]
+      },
+      {
         "tag": "战略",
         "count": 1,
         "files": [
           "3-Resources/商业/君智战略课 - 25.10.31 AI结构化版本.md"
-        ]
-      },
-      {
-        "tag": "抖音",
-        "count": 1,
-        "files": [
-          "2-Areas/WritingSystem/分平台分发/平台调性.md"
         ]
       },
       {
@@ -200,10 +242,45 @@
         ]
       },
       {
+        "tag": "竞品分析",
+        "count": 1,
+        "files": [
+          "1-Projects/MyWear/Alta竞品调研报告.md"
+        ]
+      },
+      {
+        "tag": "系统1",
+        "count": 1,
+        "files": [
+          "2-Areas/WritingSystem/WriteRule/稿件审查标准.md"
+        ]
+      },
+      {
+        "tag": "系统2",
+        "count": 1,
+        "files": [
+          "2-Areas/WritingSystem/WriteRule/稿件审查标准.md"
+        ]
+      },
+      {
+        "tag": "系统进化",
+        "count": 1,
+        "files": [
+          "1-Projects/EvoMap迁移方案.md"
+        ]
+      },
+      {
         "tag": "自我觉察",
         "count": 1,
         "files": [
           "3-Resources/认知/Mindecodi培训/Mindcode - 第一期（Wake Up） - 第一节【镜子.md"
+        ]
+      },
+      {
+        "tag": "获得感",
+        "count": 1,
+        "files": [
+          "2-Areas/WritingSystem/WriteRule/稿件审查标准.md"
         ]
       },
       {
@@ -218,6 +295,13 @@
         "count": 1,
         "files": [
           "1-Projects/MyWear/商业模式.md"
+        ]
+      },
+      {
+        "tag": "记忆",
+        "count": 1,
+        "files": [
+          "5-Identity/MEMORY.md"
         ]
       },
       {
@@ -242,6 +326,13 @@
         ]
       },
       {
+        "tag": "身份",
+        "count": 1,
+        "files": [
+          "5-Identity/MEMORY.md"
+        ]
+      },
+      {
         "tag": "限制性信念",
         "count": 1,
         "files": [
@@ -254,11 +345,20 @@
         "files": [
           "1-Projects/短剧APP/【251127】第一次会议纪要.md"
         ]
+      },
+      {
+        "tag": "顿悟密度",
+        "count": 1,
+        "files": [
+          "2-Areas/WritingSystem/WriteRule/稿件审查标准.md"
+        ]
       }
     ],
-    "cold_tag_count": 36,
-    "empty_desc": [],
-    "empty_desc_count": 0,
+    "cold_tag_count": 50,
+    "empty_desc": [
+      "竞品分析"
+    ],
+    "empty_desc_count": 1,
     "template_desc": [],
     "template_desc_count": 0,
     "invalid_types": [],
@@ -266,7 +366,19 @@
     "similar_pairs": [
       [
         "AI",
+        "AI偏好"
+      ],
+      [
+        "AI",
+        "AI协作"
+      ],
+      [
+        "AI",
         "AI穿搭"
+      ],
+      [
+        "AI",
+        "AI赚钱"
       ],
       [
         "写作",
@@ -277,12 +389,20 @@
         "写作系统"
       ],
       [
+        "分析",
+        "竞品分析"
+      ],
+      [
+        "口播",
+        "口播稿"
+      ],
+      [
         "奥一",
         "奥一风格"
       ],
       [
-        "流量",
-        "流量机制"
+        "翻译",
+        "翻译框架"
       ],
       [
         "项目",
@@ -293,7 +413,7 @@
         "项目申请"
       ]
     ],
-    "similar_pair_count": 7
+    "similar_pair_count": 12
   },
   "structure": {
     "l2_missing": [],
@@ -495,7 +615,7 @@
       }
     ],
     "broken_link_count": 46,
-    "inbox_count": 0,
+    "inbox_count": 1,
     "hollow_dirs": [
       "2-Areas/复盘"
     ],
@@ -507,9 +627,9 @@
     "any_stale": false
   },
   "summary": {
-    "total_issues": 89,
+    "total_issues": 109,
     "critical": 46,
     "warning": 0,
-    "info": 43
+    "info": 63
   }
 }

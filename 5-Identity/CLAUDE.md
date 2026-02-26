@@ -24,7 +24,7 @@
 
 - TELOS.md / AI_RULES.md / MEMORY.md → **B类**，必须审批
 - CONTEXT.md → **A类**，AI 在对话中识别到上下文变化时自动更新，或通过 /digest 手动触发
-- PROFILE.md → **A类**，新偏好先存 `candidates.md` 暂存，/digest 确认后晋升写入；发现冲突先场景化，场景化失败升B类
+- PROFILE.md → **A类**，新偏好先存 working-memory/candidates.md 暂存，/digest 确认后晋升写入；发现冲突先场景化，场景化失败升B类
 
 ## TELOS 快速索引
 
