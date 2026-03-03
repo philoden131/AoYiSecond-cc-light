@@ -77,11 +77,21 @@ def _auto_archive_tasks() -> str | None:
 
 
 def _count_pending(path: Path) -> int:
+    """Count only proposals that are NOT approved."""
     if not path.exists():
         return 0
     try:
         text = path.read_text(encoding="utf-8")
-        return len(re.findall(r"##\s*提案\s*#\d+", text))
+        # Find all proposals and filter out approved ones
+        # Pattern: ### 提案 #XXX followed by - 状态：✅ or approved
+        proposals = re.findall(r"(###\s*提案\s*#\d+[\s\S]*?)(?=###|\Z)", text)
+        pending = 0
+        for prop in proposals:
+            # Skip if marked as approved/已批准 (various formats)
+            if re.search(r"状态[：:]|\*\*状态\*\*:?.*?(✅|已批准|approved)", prop, re.IGNORECASE):
+                continue
+            pending += 1
+        return pending
     except Exception:
         return 0
 

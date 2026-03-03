@@ -578,6 +578,9 @@ def _scan_smell_health(pointers: List[dict]) -> dict:
                 target = target.split("#")[0].strip()
             if not target:
                 continue
+            # Skip image embeds (![[xxx.png]])
+            if target.lower().endswith(('.png', '.jpg', '.jpeg', '.gif', '.webp', '.svg')):
+                continue
             # Check if target stem exists
             target_stem = Path(target).stem if "/" in target else target
             if target_stem not in all_stems:
