@@ -5,6 +5,7 @@
 
 成员清单：
 - 推特内容改写提示词.md: 将原始内容改写为推特格式
+- Zara AI Coding 方法论.md: 文科生独立开发上线产品的完整方法论，11个核心洞察（Shipping心态、乐高开发、Playground设计、Build First等）
 - CC技巧/: Claude Code 技巧
 - 官方提示词学习/: 官方提示词学习
 - Prompt/: AI提示词模板（穿搭、造型等）

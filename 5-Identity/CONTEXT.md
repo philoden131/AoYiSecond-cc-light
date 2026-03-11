@@ -15,14 +15,14 @@ reviewed_at: 2026-02-14
 > 最后更新：2026-02-14
 
 ## 活跃项目
-- MyWear：AI穿搭管家，已完成MVP开发，申请Antler加速器中（2026年2月）
+- MyWear：AI穿搭管家，已完成MVP开发，Antler加速器申请**未通过**（2026年3月）→ 项目继续推进，但加速器路线暂停
 - 外挂大脑系统：完成记忆系统改造（阶段零～阶段四+L1全部就位，2026-02-25）
   - 新建：PROFILE.md（场景化偏好）, candidates.md（暂存池）, patterns/（任务智能）, session_export.py（全量对话记录）
   - 核心机制：新偏好 → candidates.md 暂存 → /digest 确认 → 晋升 PROFILE.md
 
 ## 近期关注
-- Claude Code 深度使用技巧
-- 写作系统持续运转中
+- **战略转向：停止系统搭建工具堆积，聚焦内容产出与影响力**
+- 写作系统持续运转中，重点是开始实际输出
 
 ## 近期决策
 - 选择 PARA 而非 Zettelkasten 作为知识框架

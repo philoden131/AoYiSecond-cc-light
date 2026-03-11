@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-02-26T14:33:01Z",
+  "generated_at": "2026-03-03T07:55:59Z",
   "counts": {
-    "inbox": 1,
+    "inbox": 2,
     "project": 18,
     "area": 70,
     "resource": 113,
     "archive": 14,
     "identity": 5
   },
-  "total_markdown": 221,
+  "total_markdown": 222,
   "top_domains": [
     {
       "domain": "创作",
@@ -37,6 +37,30 @@
   ],
   "hot_notes": [
     {
+      "title": "EvoMap迁移方案",
+      "path": "1-Projects/EvoMap迁移方案.md",
+      "para": "project",
+      "domain": "Projects",
+      "summary": "将 EvoMap 的 AI Agent 自进化思想迁移到奥一的第二大脑系统中，复用现有 Claude Code 基础设施",
+      "rank": 0.855
+    },
+    {
+      "title": "Alta竞品调研报告",
+      "path": "1-Projects/MyWear/Alta竞品调研报告.md",
+      "para": "project",
+      "domain": "general",
+      "summary": "AI穿搭竞品 Alta 的深度调研分析，为 MyWear 加速器申请提供竞品参考",
+      "rank": 0.855
+    },
+    {
+      "title": "Antler加速器申请",
+      "path": "1-Projects/MyWear/Antler-Accelerator-Application.md",
+      "para": "project",
+      "domain": "general",
+      "summary": "MyWear Antler加速器申请书（英文版），面向 Disrupt 项目",
+      "rank": 0.855
+    },
+    {
       "title": "Dora学习需求",
       "path": "1-Projects/AI学习小组/Dora学习需求.md",
       "para": "project",
@@ -58,30 +82,6 @@
       "para": "project",
       "domain": "项目",
       "summary": "MyWear产品定位与股权结构设计：AI功能策略、股权分配、融资准备。",
-      "rank": 0.855
-    },
-    {
-      "title": "产品标签系统设计",
-      "path": "1-Projects/MyWear/产品标签系统设计.md",
-      "para": "project",
-      "domain": "项目",
-      "summary": "MyWear产品标签系统设计需求：全局属性、单品属性、分类层级讨论。",
-      "rank": 0.855
-    },
-    {
-      "title": "MIYA短剧需求",
-      "path": "1-Projects/短剧APP/MIYA短剧需求.md",
-      "para": "project",
-      "domain": "项目",
-      "summary": "MIYA短剧项目需求讨论，海外短剧平台，硬件合作，分发模式。",
-      "rank": 0.855
-    },
-    {
-      "title": "出海调研需求",
-      "path": "1-Projects/短剧APP/出海调研需求.md",
-      "para": "project",
-      "domain": "项目",
-      "summary": "短剧APP开发需求，海外短剧平台，技术选型PWA，开发周期与费用评估。",
       "rank": 0.855
     }
   ]

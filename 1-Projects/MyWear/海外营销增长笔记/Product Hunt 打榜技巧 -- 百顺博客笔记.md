@@ -23,8 +23,8 @@ PH冲榜作用：
 To SMB（中小企业） / To C 比较容易上榜
 
 ## 一、 Tagline编写技巧
-![[Pasted image 20251218165939.png]]
-![[Pasted image 20251218165959.png]]
+!![[./Pasted image 20251218165939.png]]
+!![[./Pasted image 20251218165959.png]]
 
 ### 难点 
 1. **一句话必须同时做到两件事**
@@ -82,7 +82,7 @@ The cursor for music （做音乐的cursor）
 
 
 
-![[Pasted image 20251218170046.png]]
+!![[./Pasted image 20251218170046.png]]
 
 
 
@@ -175,7 +175,7 @@ The cursor for music （做音乐的cursor）
     - 现在能做什么、适合谁、怎么开始用、你最想听到的反馈是什么（引导评论/试用）。
         
 
-![[Pasted image 20251218171138.png]]
+!![[./Pasted image 20251218171138.png]]
 
 
 

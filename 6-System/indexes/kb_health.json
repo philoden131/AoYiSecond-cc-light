@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-02-26T14:54:49Z",
+  "generated_at": "2026-03-03T14:08:08Z",
   "tags": {
-    "total": 118,
+    "total": 133,
     "cold_tags": [
       {
         "tag": "AI偏好",
@@ -39,6 +39,13 @@
         ]
       },
       {
+        "tag": "GPTs",
+        "count": 1,
+        "files": [
+          "0-Inbox/任务2-搭建GPTs.md"
+        ]
+      },
+      {
         "tag": "Google Play",
         "count": 1,
         "files": [
@@ -57,6 +64,13 @@
         "count": 1,
         "files": [
           "2-Areas/WritingSystem/other/人物核心.md"
+        ]
+      },
+      {
+        "tag": "Obsidian",
+        "count": 1,
+        "files": [
+          "0-Inbox/任务3-优化Obsidian双链系统.md"
         ]
       },
       {
@@ -85,6 +99,20 @@
         "count": 1,
         "files": [
           "2-Areas/WritingSystem/1 - 配图师.md"
+        ]
+      },
+      {
+        "tag": "Skill",
+        "count": 1,
+        "files": [
+          "0-Inbox/任务6-口语化表达优化.md"
+        ]
+      },
+      {
+        "tag": "Subagent",
+        "count": 1,
+        "files": [
+          "0-Inbox/任务5-观众视角Subagent.md"
         ]
       },
       {
@@ -137,6 +165,13 @@
         ]
       },
       {
+        "tag": "优化",
+        "count": 1,
+        "files": [
+          "0-Inbox/任务5-观众视角Subagent.md"
+        ]
+      },
+      {
         "tag": "传播学",
         "count": 1,
         "files": [
@@ -158,10 +193,38 @@
         ]
       },
       {
+        "tag": "协作",
+        "count": 1,
+        "files": [
+          "0-Inbox/任务4-优化写作系统-梳理发布准则.md"
+        ]
+      },
+      {
+        "tag": "双链",
+        "count": 1,
+        "files": [
+          "0-Inbox/任务3-优化Obsidian双链系统.md"
+        ]
+      },
+      {
+        "tag": "发布",
+        "count": 1,
+        "files": [
+          "0-Inbox/任务4-优化写作系统-梳理发布准则.md"
+        ]
+      },
+      {
         "tag": "口播",
         "count": 1,
         "files": [
           "2-Areas/WritingSystem/0 - 口播改写.md"
+        ]
+      },
+      {
+        "tag": "口语化",
+        "count": 1,
+        "files": [
+          "0-Inbox/任务6-口语化表达优化.md"
         ]
       },
       {
@@ -200,6 +263,13 @@
         ]
       },
       {
+        "tag": "工具",
+        "count": 1,
+        "files": [
+          "0-Inbox/任务2-搭建GPTs.md"
+        ]
+      },
+      {
         "tag": "战略",
         "count": 1,
         "files": [
@@ -235,6 +305,13 @@
         ]
       },
       {
+        "tag": "标准化",
+        "count": 1,
+        "files": [
+          "0-Inbox/任务4-优化写作系统-梳理发布准则.md"
+        ]
+      },
+      {
         "tag": "盈利模型",
         "count": 1,
         "files": [
@@ -242,10 +319,31 @@
         ]
       },
       {
+        "tag": "知识管理",
+        "count": 1,
+        "files": [
+          "0-Inbox/任务3-优化Obsidian双链系统.md"
+        ]
+      },
+      {
         "tag": "竞品分析",
         "count": 1,
         "files": [
           "1-Projects/MyWear/Alta竞品调研报告.md"
+        ]
+      },
+      {
+        "tag": "第二大脑",
+        "count": 1,
+        "files": [
+          "0-Inbox/任务1-第二大脑系统文章.md"
+        ]
+      },
+      {
+        "tag": "系统",
+        "count": 1,
+        "files": [
+          "0-Inbox/任务1-第二大脑系统文章.md"
         ]
       },
       {
@@ -267,6 +365,13 @@
         "count": 1,
         "files": [
           "1-Projects/EvoMap迁移方案.md"
+        ]
+      },
+      {
+        "tag": "自动化",
+        "count": 1,
+        "files": [
+          "0-Inbox/任务2-搭建GPTs.md"
         ]
       },
       {
@@ -354,11 +459,25 @@
         ]
       }
     ],
-    "cold_tag_count": 50,
+    "cold_tag_count": 65,
     "empty_desc": [
-      "竞品分析"
+      "GPTs",
+      "Obsidian",
+      "Skill",
+      "Subagent",
+      "优化",
+      "协作",
+      "双链",
+      "发布",
+      "口语化",
+      "工具",
+      "标准化",
+      "知识管理",
+      "第二大脑",
+      "系统",
+      "自动化"
     ],
-    "empty_desc_count": 1,
+    "empty_desc_count": 15,
     "template_desc": [],
     "template_desc_count": 0,
     "invalid_types": [],
@@ -381,12 +500,24 @@
         "AI赚钱"
       ],
       [
+        "AI协作",
+        "协作"
+      ],
+      [
+        "VIT系统",
+        "系统"
+      ],
+      [
         "写作",
         "写作严谨性"
       ],
       [
         "写作",
         "写作系统"
+      ],
+      [
+        "写作系统",
+        "系统"
       ],
       [
         "分析",
@@ -401,6 +532,26 @@
         "奥一风格"
       ],
       [
+        "系统",
+        "系统1"
+      ],
+      [
+        "系统",
+        "系统2"
+      ],
+      [
+        "系统",
+        "系统提示词"
+      ],
+      [
+        "系统",
+        "系统规则"
+      ],
+      [
+        "系统",
+        "系统进化"
+      ],
+      [
         "翻译",
         "翻译框架"
       ],
@@ -413,209 +564,38 @@
         "项目申请"
       ]
     ],
-    "similar_pair_count": 12
+    "similar_pair_count": 20
   },
   "structure": {
     "l2_missing": [],
     "l2_missing_count": 0,
     "l2_stale": [],
     "l2_stale_count": 0,
-    "l3_issues": [],
-    "l3_issue_count": 0
+    "l3_issues": [
+      {
+        "file": "0-Inbox/Coding Agent 有个甜蜜点，多数人直接跳过了.md",
+        "issues": [
+          "missing_status",
+          "missing_type",
+          "missing_para"
+        ]
+      }
+    ],
+    "l3_issue_count": 1
   },
   "smells": {
     "stale_active": [],
     "stale_active_count": 0,
-    "orphan_candidates": [],
-    "orphan_candidate_count": 0,
-    "broken_links": [
+    "orphan_candidates": [
       {
-        "file": "1-Projects/MyWear/EPIC 251217 - 易拉宝.md",
-        "target": "Gemini_Generated_Image_rc0cfhrc0cfhrc0c.png"
-      },
-      {
-        "file": "1-Projects/短剧APP/251127 会前调研内容.md",
-        "target": "Pasted image 20251126121506.png"
-      },
-      {
-        "file": "1-Projects/短剧APP/251127 会前调研内容.md",
-        "target": "Pasted image 20251126123448.png"
-      },
-      {
-        "file": "1-Projects/短剧APP/【251201】 第二次会议.md",
-        "target": "b14bdff8efa1c04ef8d221570b020e87.png"
-      },
-      {
-        "file": "1-Projects/短剧APP/【251201】 第二次会议.md",
-        "target": "49c3e35b555ab96d7ce1eedb140597fa.png"
-      },
-      {
-        "file": "1-Projects/短剧APP/【251201】 第二次会议.md",
-        "target": "1f56fd4c9f26bc7a666788788795babe 1.jpg"
-      },
-      {
-        "file": "1-Projects/MyWear/海外营销增长笔记/Product Hunt 打榜技巧 -- 百顺博客笔记.md",
-        "target": "Pasted image 20251218165939.png"
-      },
-      {
-        "file": "1-Projects/MyWear/海外营销增长笔记/Product Hunt 打榜技巧 -- 百顺博客笔记.md",
-        "target": "Pasted image 20251218165959.png"
-      },
-      {
-        "file": "1-Projects/MyWear/海外营销增长笔记/Product Hunt 打榜技巧 -- 百顺博客笔记.md",
-        "target": "Pasted image 20251218170046.png"
-      },
-      {
-        "file": "1-Projects/MyWear/海外营销增长笔记/Product Hunt 打榜技巧 -- 百顺博客笔记.md",
-        "target": "Pasted image 20251218171138.png"
-      },
-      {
-        "file": "3-Resources/创作/知识付费通用逻辑.md",
-        "target": "Pasted image 20251127173610.png"
-      },
-      {
-        "file": "3-Resources/AI/YYFunctionDesign.md",
-        "target": "Pasted image 20251108135058.png"
-      },
-      {
-        "file": "3-Resources/商业/张和 AI 产品经理课.md",
-        "target": "Pasted image 20251128202045.png"
-      },
-      {
-        "file": "3-Resources/商业/张和 AI 产品经理课.md",
-        "target": "Pasted image 20251128202316.png"
-      },
-      {
-        "file": "3-Resources/商业/张和 AI 产品经理课.md",
-        "target": "Pasted image 20251128202339.png"
-      },
-      {
-        "file": "3-Resources/商业/张和 AI 产品经理课.md",
-        "target": "Pasted image 20251128202715.png"
-      },
-      {
-        "file": "3-Resources/商业/张和 AI 产品经理课.md",
-        "target": "Pasted image 20251128202917.png"
-      },
-      {
-        "file": "3-Resources/商业/张和 AI 产品经理课.md",
-        "target": "Pasted image 20251128203529.png"
-      },
-      {
-        "file": "3-Resources/商业/张和 AI 产品经理课.md",
-        "target": "Pasted image 20251128203730.png"
-      },
-      {
-        "file": "3-Resources/商业/张和 AI 产品经理课.md",
-        "target": "Pasted image 20251128203946.png"
-      },
-      {
-        "file": "3-Resources/商业/张和 AI 产品经理课.md",
-        "target": "Pasted image 20251128212341.png"
-      },
-      {
-        "file": "3-Resources/创作/NLP-STEEPS/NLP 上课笔记.md",
-        "target": "Pasted image 20251130212540.png"
-      },
-      {
-        "file": "3-Resources/创作/NLP-STEEPS/NLP 上课笔记.md",
-        "target": "Pasted image 20251130214330.png"
-      },
-      {
-        "file": "3-Resources/理财/现金流梳理/P2 资产债务梳理.md",
-        "target": "26de389b7ed74811fa617b0d4d15cb88.png"
-      },
-      {
-        "file": "4-Archives/内容创作归档/第一讲 - 视频脚本.md",
-        "target": "Pasted image 20260129102357.png"
-      },
-      {
-        "file": "4-Archives/内容创作归档/Nanobanana爆火背后，主创团队的洞察.md",
-        "target": "Pasted image 20250902123248.png"
-      },
-      {
-        "file": "4-Archives/内容创作归档/Nanobanana爆火背后，主创团队的洞察.md",
-        "target": "Pasted image 20250902123313.png"
-      },
-      {
-        "file": "4-Archives/内容创作归档/Nanobanana爆火背后，主创团队的洞察.md",
-        "target": "Pasted image 20250902123941.png"
-      },
-      {
-        "file": "4-Archives/内容创作归档/Nanobanana爆火背后，主创团队的洞察.md",
-        "target": "Pasted image 20250902123726.png"
-      },
-      {
-        "file": "4-Archives/内容创作归档/Nanobanana爆火背后，主创团队的洞察.md",
-        "target": "Pasted image 20250902134841.png"
-      },
-      {
-        "file": "4-Archives/内容创作归档/Nanobanana爆火背后，主创团队的洞察.md",
-        "target": "Pasted image 20250902134853.png"
-      },
-      {
-        "file": "4-Archives/内容创作归档/Nanobanana爆火背后，主创团队的洞察.md",
-        "target": "Pasted image 20250902135351.png"
-      },
-      {
-        "file": "4-Archives/内容创作归档/Nanobanana爆火背后，主创团队的洞察.md",
-        "target": "Pasted image 20250902135623.png"
-      },
-      {
-        "file": "4-Archives/内容创作归档/Nanobanana爆火背后，主创团队的洞察.md",
-        "target": "Pasted image 20250902140101.png"
-      },
-      {
-        "file": "4-Archives/内容创作归档/Nanobanana爆火背后，主创团队的洞察.md",
-        "target": "Pasted image 20250902140134.png"
-      },
-      {
-        "file": "4-Archives/内容创作归档/Nanobanana爆火背后，主创团队的洞察.md",
-        "target": "Pasted image 20250902140511.png"
-      },
-      {
-        "file": "4-Archives/内容创作归档/Nanobanana爆火背后，主创团队的洞察.md",
-        "target": "Pasted image 20250902140528.png"
-      },
-      {
-        "file": "4-Archives/内容创作归档/Nanobanana爆火背后，主创团队的洞察.md",
-        "target": "Pasted image 20250902140543.png"
-      },
-      {
-        "file": "4-Archives/内容创作归档/Nanobanana爆火背后，主创团队的洞察.md",
-        "target": "Pasted image 20250902141023.png"
-      },
-      {
-        "file": "4-Archives/内容创作归档/Nanobanana爆火背后，主创团队的洞察.md",
-        "target": "Pasted image 20250902141551.png"
-      },
-      {
-        "file": "4-Archives/内容创作归档/Nanobanana爆火背后，主创团队的洞察.md",
-        "target": "Pasted image 20250902141605.png"
-      },
-      {
-        "file": "4-Archives/内容创作归档/Nanobanana爆火背后，主创团队的洞察.md",
-        "target": "Pasted image 20250902141629.png"
-      },
-      {
-        "file": "4-Archives/内容创作归档/Nanobanana爆火背后，主创团队的洞察.md",
-        "target": "Pasted image 20250902141639.png"
-      },
-      {
-        "file": "4-Archives/内容创作归档/Nanobanana爆火背后，主创团队的洞察.md",
-        "target": "Pasted image 20250902142145.png"
-      },
-      {
-        "file": "4-Archives/内容创作归档/Nanobanana爆火背后，主创团队的洞察.md",
-        "target": "Pasted image 20250902142219.png"
-      },
-      {
-        "file": "4-Archives/内容创作归档/Nanobanana爆火背后，主创团队的洞察.md",
-        "target": "Pasted image 20250902142231.png"
+        "file": "0-Inbox/Coding Agent 有个甜蜜点，多数人直接跳过了.md",
+        "reason": "no_tags_no_links"
       }
     ],
-    "broken_link_count": 46,
-    "inbox_count": 1,
+    "orphan_candidate_count": 1,
+    "broken_links": [],
+    "broken_link_count": 0,
+    "inbox_count": 8,
     "hollow_dirs": [
       "2-Areas/复盘"
     ],
@@ -627,9 +607,9 @@
     "any_stale": false
   },
   "summary": {
-    "total_issues": 109,
-    "critical": 46,
-    "warning": 0,
-    "info": 63
+    "total_issues": 103,
+    "critical": 0,
+    "warning": 2,
+    "info": 101
   }
 }

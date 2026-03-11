@@ -28,12 +28,12 @@ reviewed_at: 2026-02-14
 理解你的意思 
 不需要强调， 自然就会保持场景一致性
 
-![[Pasted image 20250902123248.png]]![[Pasted image 20250902123313.png]]
+!![[./Pasted image 20250902123248.png]]!![[./Pasted image 20250902123313.png]]
 
 有趣味的交流
 
 文本结构的渲染 很重要 【关注的重要指标】
-![[Pasted image 20250902123941.png]] 
+!![[./Pasted image 20250902123941.png]] 
 
 人类打标 耗时耗力  寻找渲染指标
 新的指标
@@ -46,38 +46,38 @@ reviewed_at: 2026-02-14
 获取大规模的人类偏好评估需要很长的时间。在模型需要快速迭代和训练的阶段，等待人类评分员的反馈会严重拖慢开发进度。
 
 文本渲染结构这个指标很容易评判 可以脱离人的打标限制
-![[Pasted image 20250902123726.png]]![[Pasted image 20250902134841.png]]![[Pasted image 20250902134853.png]]
+!![[./Pasted image 20250902123726.png]]!![[./Pasted image 20250902134841.png]]!![[./Pasted image 20250902134853.png]]
 
 多模态的模型，生成多张模型的时候，他们都处于一个上下文中，也就是说 生成第二张图的时候，大模型是知道第一张图的内容的
 
-![[Pasted image 20250902135351.png]]
+!![[./Pasted image 20250902135351.png]]
 
 快很重要
 很多场景下，是需要迭代的，所以快速很重要，快速迭代能找到最适合你的效果
 
-![[Pasted image 20250902135623.png]] 
+!![[./Pasted image 20250902135623.png]] 
 
 Gemini的野心
 让所有的模态都进入Gemini
 这是他们认为通往AGI的方式
-![[Pasted image 20250902140101.png]]![[Pasted image 20250902140134.png]]
+!![[./Pasted image 20250902140101.png]]!![[./Pasted image 20250902140134.png]]
 
 
 nanobanana 和 imagen 的不同
-![[Pasted image 20250902140511.png]]
-![[Pasted image 20250902140528.png]]![[Pasted image 20250902140543.png]]
+!![[./Pasted image 20250902140511.png]]
+!![[./Pasted image 20250902140528.png]]!![[./Pasted image 20250902140543.png]]
 
 原生的图像推理模型背后有更多的世界知识
 能更好的理解 你模糊提示词背后蕴含的意图
 而纯图像模型则需要更精确的提示词
 
 主创团队会看推特的反馈 然后推动模型的进步
-![[Pasted image 20250902141023.png]]
+!![[./Pasted image 20250902141023.png]]
 
 团队内部有自己的审美评价员
 审美评价还是离不开人的参与
 
-![[Pasted image 20250902141551.png]]![[Pasted image 20250902141605.png]]![[Pasted image 20250902141629.png]] ![[Pasted image 20250902141639.png]]
+!![[./Pasted image 20250902141551.png]]!![[./Pasted image 20250902141605.png]]!![[./Pasted image 20250902141629.png]] !![[./Pasted image 20250902141639.png]]
 
 未来规划
 不一定是图像更高，但是要让人觉得这个模型很聪明
@@ -90,6 +90,6 @@ nanobanana 和 imagen 的不同
 
 未来希望能让模型直接出一个PPT（每个产品经理的梦想
 
-![[Pasted image 20250902142145.png]]![[Pasted image 20250902142219.png]]![[Pasted image 20250902142231.png]]
+!![[./Pasted image 20250902142145.png]]!![[./Pasted image 20250902142219.png]]!![[./Pasted image 20250902142231.png]]
 
 #AIModel #ImageGeneration #ProductInsight

@@ -1,0 +1,181 @@
+#!/usr/bin/env python3
+"""Lightweight stop hook: daily memory breadcrumb (per-session, per-day folder)."""
+
+import json
+import sys
+import time
+from datetime import datetime
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[2]
+DAILY_DIR = ROOT / "6-System" / "working-memory" / "daily"
+
+
+def _strip_tool_renders(text: str) -> str:
+    """Remove Claude Code terminal tool-call rendering lines from text.
+    Filters lines starting with ⏺ / ⎿ and their indented sub-lines.
+    """
+    clean = []
+    in_tool_block = False
+    for line in text.split("\n"):
+        stripped = line.strip()
+        if stripped.startswith("⏺") or stripped.startswith("⎿"):
+            in_tool_block = True
+            continue
+        if in_tool_block and (line.startswith(" ") or line.startswith("\t") or stripped == ""):
+            if stripped == "":
+                in_tool_block = False
+            continue
+        in_tool_block = False
+        clean.append(line)
+    return "\n".join(clean).strip()
+
+
+# Claude Code system markers that are not real user messages
+_SYSTEM_MARKERS = frozenset([
+    "[Request interrupted by user]",
+    "[Request interrupted by user for tool use]",
+])
+
+
+def _extract_user_text(content) -> str:
+    """Extract real user-typed text, skipping tool_result blocks,
+    tool render artifacts, and Claude Code system markers."""
+    if isinstance(content, str):
+        text = content.strip()
+        if text in _SYSTEM_MARKERS:
+            return ""
+        return _strip_tool_renders(text)
+    if isinstance(content, list):
+        parts = []
+        for b in content:
+            if not isinstance(b, dict):
+                continue
+            if b.get("type") == "tool_result":
+                continue
+            if b.get("type") == "text":
+                text = b.get("text", "").strip()
+                if text in _SYSTEM_MARKERS:
+                    continue
+                text = _strip_tool_renders(text)
+                if text:
+                    parts.append(text)
+        return "\n".join(parts)
+    return ""
+
+
+def _extract_assistant_text(content) -> str:
+    """Extract assistant text, skipping tool_use and thinking blocks."""
+    if isinstance(content, str):
+        return content.strip()
+    if isinstance(content, list):
+        parts = [
+            b.get("text", "").strip()
+            for b in content
+            if isinstance(b, dict) and b.get("type") == "text"
+        ]
+        return "\n".join(p for p in parts if p)
+    return ""
+
+
+def _extract_all_exchanges(transcript_path: str) -> list[tuple[str, str]]:
+    """Return ALL complete (user_msg, assistant_text) pairs from transcript.
+
+    Stop fires after thinking but BEFORE the text response is written to JSONL,
+    so the current in-progress turn won't appear — only completed pairs are returned.
+    """
+    if not transcript_path:
+        return []
+    path = Path(transcript_path)
+    if not path.exists():
+        return []
+    try:
+        lines = path.read_text(encoding="utf-8", errors="ignore").splitlines()
+    except Exception:
+        return []
+
+    exchanges: list[tuple[str, str]] = []
+    pending_user = ""
+    pending_ai = ""
+
+    for line in lines:
+        line = line.strip()
+        if not line:
+            continue
+        try:
+            obj = json.loads(line)
+        except Exception:
+            continue
+        msg_type = obj.get("type", "")
+        content = obj.get("message", {}).get("content", "")
+
+        if msg_type == "user":
+            user_text = _extract_user_text(content)
+            if user_text:
+                # Commit previous pair before starting a new user turn
+                if pending_user and pending_ai:
+                    exchanges.append((pending_user, pending_ai))
+                pending_user = user_text
+                pending_ai = ""
+        elif msg_type == "assistant":
+            ai_text = _extract_assistant_text(content)
+            if ai_text and pending_user:
+                # Keep overwriting — want the LAST text in this turn
+                # (Claude often sends "let me check..." then the real answer)
+                pending_ai = ai_text
+
+    # Commit the final pair if complete
+    if pending_user and pending_ai:
+        exchanges.append((pending_user, pending_ai))
+
+    return exchanges
+
+
+def _session_file(transcript_path: str) -> Path:
+    """Resolve the per-session breadcrumb file: daily/YYYYMM/YYYYMMDD/{session}.md"""
+    now = datetime.now()
+    day_dir = DAILY_DIR / now.strftime("%Y%m") / now.strftime("%Y%m%d")
+    day_dir.mkdir(parents=True, exist_ok=True)
+    session_id = Path(transcript_path).stem[:8] if transcript_path else "unknown"
+    return day_dir / f"{session_id}.md"
+
+
+def _write_new_exchanges(session_file: Path, exchanges: list[tuple[str, str]]):
+    """Write any exchanges not yet in the breadcrumb file."""
+    existing = session_file.read_text(encoding="utf-8") if session_file.exists() else ""
+    time_str = datetime.now().strftime("%H:%M")
+
+    for user_msg, ai_msg in exchanges:
+        if not user_msg:
+            continue
+        # Dedup: skip if this user message is already recorded
+        if user_msg[:80] in existing:
+            continue
+        entry = f"- {time_str} [你]\n{user_msg}\n\n- {time_str} [cc]\n{ai_msg}\n\n---\n\n"
+        with open(session_file, "a", encoding="utf-8") as f:
+            f.write(entry)
+        existing += entry  # update in-memory view to prevent same-batch dups
+
+
+def main():
+    try:
+        payload = json.loads(sys.stdin.read())
+    except Exception:
+        payload = {}
+
+    transcript_path = payload.get("transcript_path", "")
+    session_file = _session_file(transcript_path)
+
+    # First pass: write all complete exchanges found now
+    exchanges = _extract_all_exchanges(transcript_path)
+    _write_new_exchanges(session_file, exchanges)
+
+    # Second pass after delay: catch the last turn whose text response
+    # may not have been flushed to JSONL when the first pass ran
+    time.sleep(3)
+    exchanges = _extract_all_exchanges(transcript_path)
+    _write_new_exchanges(session_file, exchanges)
+
+
+if __name__ == "__main__":
+    main()

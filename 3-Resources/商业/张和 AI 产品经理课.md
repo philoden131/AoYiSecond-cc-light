@@ -13,7 +13,7 @@ reviewed_at: 2026-02-14
 
 
 
-![[Pasted image 20251128202045.png]]
+!![[./Pasted image 20251128202045.png]]
 
 
 普通产研团队,如何做出世界一流的AI产品?
@@ -35,27 +35,27 @@ reviewed_at: 2026-02-14
 
 
 
-![[Pasted image 20251128202316.png]]
+!![[./Pasted image 20251128202316.png]]
 
-![[Pasted image 20251128202339.png]]
+!![[./Pasted image 20251128202339.png]]
 
 「评测集」和「数据集」 反应了 产品经理 对 业务 的理解
 
 评测集的重要性十分重要
 
-![[Pasted image 20251128202715.png]]
+!![[./Pasted image 20251128202715.png]]
 
-![[Pasted image 20251128202917.png]]
+!![[./Pasted image 20251128202917.png]]
 
-![[Pasted image 20251128203529.png]]
+!![[./Pasted image 20251128203529.png]]
 
-![[Pasted image 20251128203730.png]]
+!![[./Pasted image 20251128203730.png]]
 
 
 业务部门为核心 而不是 去依赖中台的产研
 
-![[Pasted image 20251128203946.png]]
+!![[./Pasted image 20251128203946.png]]
 
-![[Pasted image 20251128212341.png]]
+!![[./Pasted image 20251128212341.png]]
 
 #ProductManagement #AI #CourseNotes
